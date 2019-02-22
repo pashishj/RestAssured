@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RestAPITests" verbose="1" >
+    <listeners>
+        <listener class-name="Resources.ExtentReport"/>
+        
+    </listeners>
+    <test name="Functionl" >
+        <classes>
+            <class name="RestGetCallTests" />
+            <class name="RestPostCallTests" />
+        </classes>
+    </test>
+
+    </suite>
